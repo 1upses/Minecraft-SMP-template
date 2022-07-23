@@ -3,14 +3,9 @@
 - [Java 17](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
 - [Python](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/)
+- [pyjson5](https://pypi.org/project/pyjson5/)
 
 # Installation
-
-- Install pyjson5.
-
-```bash
-pip install pyjson5
-```
 
 - launch ```update_files.py```
 ```bash
