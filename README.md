@@ -36,6 +36,7 @@ if you messed up the location, you can type ```//undo``` to then type ```//paste
 - Linux -> ```bash run.sh```
 - To stop the server -> type ```stop``` in the console
 - Take a look on how to use [ChestShop](https://youtu.be/Zap3snBb5Fw) and [Blocklocker](https://youtu.be/EaCHTiPNGiQ)
+- Regularly run the ```update_files.py``` script to stay up to date, make sure the server is closed before doing so
 
 If you want to modify the plugins, you can do so by editing ```settings.json```, deleting the plugins in the plugins folder, and running the ```update_files.py``` script again
 
