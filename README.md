@@ -1,3 +1,5 @@
+This template is currently still running on 1.18.2 because some plugins still haven't been updated to 1.19, but you can still join in 1.19 if you want to. When all plugins will be updated, make sure to switch the version in ```settings.json``` before running ```update_files.py``` for the changes to take place
+
 # Requirements
 
 - [Java 17](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
