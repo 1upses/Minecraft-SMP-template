@@ -30,7 +30,7 @@ lp user {your username} parent set admin
 ```
 if you messed up the location, you can type ```//undo``` to then type ```//paste``` again but this time at the correct location
 
-- To protect the bank from potential griefers, you'll need to define a protected region, so execute ```//wand``` to get a wooden axe, and using this axe, make 2 points 3D selection of the bank: left click is for the 1st point, and right click is for the 2nd one. And then, you can type the command ```/rg define bank```. If you messed up the selection area, you can redefine the region using ```/rg redefine bank```
+- To protect the bank from potential griefers, you'll need to define a protected region, so execute ```//wand``` to get a wooden axe, and using this axe, make a 2 points 3D selection of the bank: left click is for the 1st point, and right click is for the 2nd one. And then, you can type the command ```/rg define bank```. If you messed up the selection area, you can redefine the region using ```/rg redefine bank```
 
 # Usage
 
