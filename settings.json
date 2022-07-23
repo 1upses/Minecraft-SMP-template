@@ -7,7 +7,7 @@
     "get_latest_mc_version": false,
     // leave empty if you don't want to download anything from curseforge
     // otherwise, get your api key from https://console.curseforge.com/
-    "curseforge_api_key": "$2a$10$IMtcojy6kMlAlxtwIMN0Gu2yyBnzdN9YbxdvSdt.riLYDUHWA9c9q",
+    "curseforge_api_key": "",
     "plugins":
         {
             "github":
@@ -28,13 +28,13 @@
             "essentials":
                 {
                     "core": true,
-                    "chat": true,
-                    "spawn": true,
-                    "discord": false,
-                    "antibuild": false,
-                    "geo": false,
-                    "protect": false,
-                    "xmpp": false
+                    "AntiBuild": false,
+                    "Chat": true,
+                    "Discord": false,
+                    "GeoIP": false,
+                    "Protect": false,
+                    "Spawn": true,
+                    "XXMPP": false
                 },
             "luckperms": true,
             "geyser": false
