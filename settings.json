@@ -1,0 +1,64 @@
+{
+    "update_paper": true,
+    // do not enter the version suffix; 1.18.2 -> 1.18
+    "version": "1.18",
+    "filename": "server.jar",
+    // NOT RECOMMENDED always uses the latest mc version when set to true
+    "get_latest_mc_version": false,
+    // leave empty if you don't want to download anything from curseforge
+    // otherwise, get your api key from https://console.curseforge.com/
+    "curseforge_api_key": "$2a$10$IMtcojy6kMlAlxtwIMN0Gu2yyBnzdN9YbxdvSdt.riLYDUHWA9c9q",
+    "plugins":
+        {
+            "github":
+                [
+                    "https://github.com/rutgerkok/BlockLocker/",
+                    "https://github.com/Imprex-Development/Orebfuscator/",
+                    "https://github.com/dmulloy2/ProtocolLib/",
+                    "https://github.com/milkbowl/Vault/",
+                    "https://github.com/ChestShop-authors/ChestShop-3/",
+                    "https://github.com/NEZNAMY/TAB/",
+                    "https://github.com/ViaVersion/ViaVersion/"
+                ],
+            "bukkit":
+                [
+                    "https://dev.bukkit.org/projects/worldedit/",
+                    "https://dev.bukkit.org/projects/worldguard/"
+                ],
+            "essentials":
+                {
+                    "core": true,
+                    "chat": true,
+                    "spawn": true,
+                    "discord": false,
+                    "antibuild": false,
+                    "geo": false,
+                    "protect": false,
+                    "xmpp": false
+                },
+            "luckperms": true,
+            "geyser": false
+        },
+    "datapacks":
+        {
+            "github":
+                [
+                    "https://github.com/Scommander/ExplosionRebuilderDatapack/"
+                ]
+        },
+    "mods":
+        {
+            "curseforge":
+                [
+                    //"513688", // Terralith
+                    //"225603", // Schematica
+                    // "328085", // Create
+                    // "225643", // Botania
+                    // "486392", // Flywheel
+                    // "306770", // Patchouli
+                    // "309927"  // Curios API (Forge)
+                    
+                    
+                ]
+        }
+}
