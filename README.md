@@ -19,7 +19,7 @@ python "./udpate_files.py"
 lp user {your username} parent set admin
 ```
 
-- To set the world spawn, use the command ```/setworldspawn``` where you want to set the world spawn location
+- To set the world spawn location, use the command ```/setworldspawn``` where you want it to be. people will then be able to teleport there using ```/spawn``` 
 
 - This template uses a diamond based economy, to initialize it, type the following commands where you want the bank to be
 ```
