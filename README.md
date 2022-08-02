@@ -13,6 +13,21 @@ This template is currently still running on 1.18.2 because some plugins still ha
 ```bash
 python "./udpate_files.py"
 ```
+- start the server (Take a look at the Usage tab)
+
+- Windows
+```bash
+del "./eula.txt"
+echo eula=true > eula.txt
+```
+
+- Linux
+```bash
+rm ./eula.txt
+echo eula=true > eula.txt
+```
+
+- Start the server and join it
 
 - Once the server is launched, type the following command in the console to get admin perms
 ```
@@ -39,6 +54,8 @@ if you messed up the location, you can type ```//undo``` to then type ```//paste
 - To stop the server -> type ```stop``` in the console
 - Take a look on how to use [ChestShop](https://youtu.be/Zap3snBb5Fw) and [Blocklocker](https://youtu.be/EaCHTiPNGiQ)
 - Regularly run the ```update_files.py``` script to stay up to date, make sure the server is closed before doing so
+
+There are plenty of existing resources online to help you with deploying your server
 
 If you want to modify the plugins, you can do so by editing ```settings.json```, deleting the plugins in the plugins folder, and running the ```update_files.py``` script again
 
