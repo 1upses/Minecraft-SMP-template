@@ -334,8 +334,8 @@ world-settings:
     feature-seeds:
       generate-random-seeds-for-all: false
     anti-xray:
-      enabled: false
-      engine-mode: 1
+      enabled: true
+      engine-mode: 2
       max-block-height: 64
       update-radius: 2
       lava-obscures: false

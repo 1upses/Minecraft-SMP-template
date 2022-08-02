@@ -13,7 +13,6 @@
             "github":
                 [
                     "https://github.com/rutgerkok/BlockLocker/",
-                    "https://github.com/Imprex-Development/Orebfuscator/",
                     "https://github.com/dmulloy2/ProtocolLib/",
                     "https://github.com/milkbowl/Vault/",
                     "https://github.com/ChestShop-authors/ChestShop-3/",
@@ -37,7 +36,8 @@
                     "XXMPP": false
                 },
             "luckperms": true,
-            "geyser": false
+            "geyser": false,
+            "floodgate": false
         },
     "datapacks":
         {

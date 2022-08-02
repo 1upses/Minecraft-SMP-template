@@ -134,6 +134,13 @@ if settings["plugins"]["geyser"]:
     print("downloading geyser ...")
     response = requests.get("https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar")
     open("./plugins/geyser.jar", "wb").write(response.content)
+    
+    print("downloading floodgate ...")
+    response = requests.get("https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar")
+    open("./plugins/floodgate.jar", "wb").write(response.content)
+elif settings["plugins"]["floodgate"]:
+    print("can't download floodgate without geyser, skipping plugin")
+
 
 print("downloading datapacks from github:")
 
