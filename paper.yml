@@ -362,10 +362,11 @@ world-settings:
       - emerald_ore
       - deepslate_emerald_ore
       - ender_chest
+      - ancient_debris
       replacement-blocks:
       - stone
-      - oak_planks
       - deepslate
+      - netherrack
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
     fishing-time-range:
