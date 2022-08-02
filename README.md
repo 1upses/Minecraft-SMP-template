@@ -13,7 +13,7 @@ This template is currently still running on 1.18.2 because some plugins still ha
 ```bash
 python "./udpate_files.py"
 ```
-- start the server (Take a look at the Usage tab)
+- Start the server (Take a look at the Usage tab)
 
 - Windows
 ```bash
@@ -29,7 +29,7 @@ echo eula=true > eula.txt
 
 - Start the server and join it
 
-- Once the server is launched, type the following command in the console to get admin perms
+- Type the following command in the console to get admin perms
 ```
 lp user {your username} parent set admin
 ```
