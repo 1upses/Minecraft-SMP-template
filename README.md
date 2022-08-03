@@ -17,14 +17,13 @@ python "./udpate_files.py"
 
 - Windows
 ```bash
-del "./eula.txt"
+del ".\eula.txt"
 echo eula=true > eula.txt
 ```
 
 - Linux
 ```bash
-rm ./eula.txt
-echo eula=true > eula.txt
+rm ./eula.txt && echo eula=true > eula.txt
 ```
 
 - Start the server and join it
