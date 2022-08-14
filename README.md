@@ -1,4 +1,4 @@
-This template is currently still running on 1.18.2 because some plugins still haven't been updated to 1.19.1, but you can still join in 1.19.1 if you want to. When all plugins will be updated, make sure to switch the version in ```settings.json``` before running ```update_files.py``` for the changes to take place
+This template is currently still running on 1.18.2 because some plugins still haven't been updated to 1.19.2, but you can still join in 1.19.2 if you want to. When all plugins will be updated, make sure to switch the version in ```settings.json``` before running ```update_files.py``` for the changes to take place
 
 # Requirements
 
@@ -17,14 +17,13 @@ python "./udpate_files.py"
 
 - Windows
 ```bash
-del "./eula.txt"
+del ".\eula.txt"
 echo eula=true > eula.txt
 ```
 
 - Linux
 ```bash
-rm ./eula.txt
-echo eula=true > eula.txt
+rm ./eula.txt && echo eula=true > eula.txt
 ```
 
 - Start the server and join it
