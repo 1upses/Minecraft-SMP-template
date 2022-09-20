@@ -61,7 +61,7 @@ if you messed up the location, you can type ```//undo``` to then type ```//paste
 - Windows -> double click on ```run.bat```
 - Linux -> ```bash run.sh```
 - To stop the server -> type ```stop``` in the console
-- Take a look on how to use [ChestShop](https://youtu.be/Zap3snBb5Fw) and [Blocklocker](https://youtu.be/EaCHTiPNGiQ)
+- Take a look on how to use [ChestShop](https://youtu.be/Zap3snBb5Fw) and [Blocklocker](https://youtu.be/EaCHTiPNGiQ), or watch [this video](https://youtu.be/JtcgF1KM4Tc) if you speak french, you can also send it to your players if your playerbase's native tongue is french
 - Regularly run the ```update_files.py``` script to stay up to date, make sure the server is closed before doing so
 
 There are plenty of existing resources online to help you with deploying your server
