@@ -2,7 +2,7 @@ This template is currently still running on 1.18.2 because some plugins still ha
 
 # Requirements
 
-- [Java 17](https://www.oracle.com/java/technologies/downloads/#jdk17-windows)
+- [Java 17 or higher](https://www.oracle.com/java/technologies/downloads/)
 - [Python](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/)
 - [pyjson5](https://pypi.org/project/pyjson5/)
