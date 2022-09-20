@@ -36,6 +36,11 @@ lp user {your username} parent set admin
 - To set the world spawn location, use the command ```/setworldspawn``` where you want it to be. people will then be able to teleport there using ```/spawn``` 
 
 - This template uses a diamond based economy, to initialize it, type the following commands where you want the bank to be
+> in the console
+```
+op {your username}
+```
+> in the game
 ```
 /schem load bank
 ```
@@ -45,6 +50,11 @@ lp user {your username} parent set admin
 if you messed up the location, you can type ```//undo``` to then type ```//paste``` again but this time at the correct location
 
 - To protect the bank from potential griefers, you'll need to define a protected region, so execute ```//wand``` to get a wooden axe, and using this axe, make a 2 points 3D selection of the bank: left click is for the 1st point, and right click is for the 2nd one. And then, you can type the command ```/rg define bank```. If you messed up the selection area, you can redefine the region using ```/rg redefine bank```
+
+```
+/deop {your username}
+```
+> you already have all the permissions you need for moderation in the admin perms you gave yourself earlier, so there's no point in staying an op user
 
 # Usage
 
