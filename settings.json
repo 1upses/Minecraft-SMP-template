@@ -36,8 +36,8 @@
                     "XXMPP": false
                 },
             "luckperms": true,
-            "geyser": true,
-            "floodgate": true
+            "geyser": false,
+            "floodgate": false
         },
     "datapacks":
         {
