@@ -100,6 +100,17 @@ for i in settings["plugins"]["bukkit"]:
     response = requests.get(i)
     open(f"./plugins/{nom[4]}.jar", "wb").write(response.content)
 
+if settings["plugins"]["custom"]:
+    for url in settings["plugins"]["custom"]:
+        print("downloading plugins from custom sources:")
+        #formating
+        nom = url.split("/")[-1]
+        nom = nom.split(".")[0]
+        print(f"{nom} ...")
+        #downloading the file
+        response = requests.get(url)
+        open(f"./plugins/{nom}.jar", "wb").write(response.content)
+
 if settings["plugins"]["essentials"]["core"]:
     print("downloading essentials plugins:")
     i = 0
